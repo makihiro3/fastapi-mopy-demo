@@ -1,0 +1,8 @@
+#syntax=cmdjulian/mopy:v1
+---
+apiVersion: v1
+python: 3.10.12
+pip:
+  - ./requirements.txt
+sbom: true
+project: ./
