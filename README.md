@@ -2,11 +2,12 @@
 
 Build a OCI image(docker image) of fastapi demo app by [cmdjulian/mopy](https://github.com/cmdjulian/mopy)
 
-## build 
+## build
 
 See also [Makefile](Makefile)
 
 ```bash
+poetry export --only main > requirements.txt
 docker buildx build -t fastapi-demo -f Mopyfile.yaml .
 ```
 
