@@ -3,4 +3,5 @@
 __pycache__
 fastapi_demo.egg-info
 venv
+.venv
 Mopyfile.yaml
